@@ -1,7 +1,9 @@
 .. Caliopen Documentation
 
-Caliopen user packages
-======================
+Caliopen REST API packages
+==========================
+
+Theses packages contains REST API for a Caliopen instance.
 
 Contents:
 
@@ -9,6 +11,7 @@ Contents:
    :maxdepth: 2
 
    user
+   message
 
 * :ref:`genindex`
 * :ref:`modindex`
