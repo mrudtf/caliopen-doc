@@ -22,8 +22,18 @@ BaseUserCore
    :private-members:
    :special-members:
 
+MixinCoreRelation
+-----------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. autoclass:: caliopen.base.core.mixin.MixinCoreRelation
+   :members:
+   :private-members:
+   :special-members:
 
+MixinCoreIndex
+--------------
+
+.. autoclass:: caliopen.base.core.mixin.MixinCoreIndex
+   :members:
+   :private-members:
+   :special-members:

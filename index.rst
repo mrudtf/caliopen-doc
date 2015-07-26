@@ -6,7 +6,7 @@ Welcome to Caliopen documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    base/index
 
