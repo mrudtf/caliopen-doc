@@ -12,22 +12,13 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
 import os
-import shlex
-
-from pyramid.paster import get_appsettings
-from pyramid.config import Configurator
-import cornice
-
 
 here = os.path.dirname(__file__)
 
 from caliopen.base.config import Configuration
 Configuration.load(os.path.join(here, '..',
                                 'base', 'caliopen.yaml.template'), 'global')
-
-
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -64,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Caliopen user API'
+project = u'Caliopen python packages documentation'
 copyright = u'2015, contact@caliopen.org'
 author = u'contact@caliopen.org'
 
