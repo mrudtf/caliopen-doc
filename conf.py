@@ -22,24 +22,12 @@ import cornice
 
 
 here = os.path.dirname(__file__)
-settings = get_appsettings(os.path.join(here, '../web',
-                                        'development.ini.sample'))
 
 from caliopen.base.config import Configuration
 Configuration.load(os.path.join(here, '..',
                                 'base', 'caliopen.yaml.template'), 'global')
 
-#config = Configurator(settings=settings)
-#config.end()
 
-
-from cornice.ext.sphinxext import MODULES
-MODULES.update({key: val
-                for key, val in sys.modules.items()
-                if key.startswith('caliopen')
-                })
-
-sys.path.insert(0, os.path.abspath(cornice.__file__))
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
