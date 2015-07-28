@@ -16,7 +16,7 @@ about this installation.
 
 ```
 git clone https://github.com/CaliOpen/caliopen-doc.git doc
-virtualenv venv/bin/activate
+source venv/bin/activate
 pip install sphinx
 
 cd doc
